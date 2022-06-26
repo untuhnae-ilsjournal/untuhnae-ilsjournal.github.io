@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home | The Adventures of Anthony's iLS Group Project: The Story</title>
+
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="alternate" type="application/rss+xml" href="{RSS}">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ 
+<script src="https://unpkg.com/feather-icons"></script>
+
+<script src="https://kit.fontawesome.com/6ac5c36b23.js"></script>
+
+<style type="text/css">
+ 
+/*----- VARIABLES: EDIT THIS SECTION!!!! -----*/
+ 
+:root {
+ 
+    /*----- colours -----*/
+ 
+    --background: #191414;
+    --content-background: #282828;
+    --text: #c9c9c9;
+    --links: #a0a0a0;
+    --title: #fff;
+    --borders: #4b4b4b;
+    --accent-1: #f1a5c0;
+    --accent-2: #f09769; 
+    --gradient-1: #facade;
+    --gradient-2: #e8a989;
+    --drop-shadow: #111; 
+    
+    --sidebar-text: #c9c9c9;
+    --sidebar-icons: #fff;
+    --sidebar-title: #fff;
+    
+    --nav-links-text: #fff;
+    
+    --footer-background: #212121;
+    --footer-title: #fff;
+    --footer-text: #c9c9c9;
+    --footer-links: #a0a0a0;
+    --search-background: #333;
+ 
+    /*----- font styling -----*/
+ 
+    --body-font: 'Nunito Sans', sans-serif;
+    --font-size: 15px;
+    
+    /*----- music player: change "block" to "none" to hide it -----*/
+    
+    --music-player-visibility: block; 
+ 
+}
+
+@keyframes lazyload {
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
+}
+ 
+@-webkit-keyframes lazyload {
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
+}
+ 
+@-moz-keyframes lazyload {
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
+}
+ 
+@-o-keyframes lazyload {
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+body {
+    font-family: var(--body-font);
+    font-size: var(--font-size);
+    color: var(--text);
+    background-color: var(--background);
+    text-align: left;
+    line-height: 160%;
+    word-wrap: break-word;
+    letter-spacing: 0.04em;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    -webkit-animation: lazyload 2s;
+    -moz-animation: lazyload 2s;
+    -o-animation: lazyload 2s;
+    animation: lazyload 2s;
+}
+ 
+ .button {
+  border: none;
+  color: white;
+  padding: 8px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.button1 {
+  background-color: #f1a5c0;
+  color: white;
+}
+
+.button1:hover {
+  background-color: #f09769;
+  color: white;
+}
+</style>
+
+<link rel="stylesheet" href="https://seyche.github.io/external-files-hosting/pages/azaleacss.css">
+
+</head>
+<body>
+
+<a href="/" title="return home" class="return"><svg xmlns="https://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg></a>
+
+<!----- CONTAINER ----->
+
+<main>
+    
+    <!----- ================================
+ 
+    USER STATS
+ 
+    ================================= ----->
+    
+    <aside id="right-content">
+        <div class="sidebar-section">
+        
+            <!----- 
+            
+            START EDITING LEFT CONTENT HERE:
+            
+            every stat looks like this:
+            
+            <li>
+                <i data-feather="user"></i>
+                content
+            </li>
+            
+            copy and paste it as many times as you want and fill in the content. all icons (not just in this section, but throughout this page) are from https://feathericons.com/. if you want to change the icons, go to the site, find the name of the new icon you want, and put the name of the icon where it says data-feater="NAMEGOESHERE".
+            
+            ----->
+        
+            <div class="title">Personal Information</div>
+            
+            <li>
+                <i data-feather="user"></i>
+                Anthony A. Tamayo II
+            </li>
+            
+            <li>
+                <i data-feather="calendar"></i>
+                September 21, 2004
+            </li>
+            
+            <li>
+                <i data-feather="map-pin"></i>
+                Tagum City
+            </li>
+            
+            <li>
+                <i data-feather="user-check"></i>
+                He/Him
+            </li>
+            
+            <!-- end of stats. any new stats must go above this line. -->
+            
+        </div>
+        
+        <!----- ================================
+ 
+        FAVOURITES
+     
+        ================================= ----->
+            
+        <div id="faves" class="sidebar-section">
+        
+            <!-- START EDITING FAVES HERE. fill in the content just as you did with the content above -->
+        
+            <div class="title">Educational Information</div>
+            <li>
+                <i data-feather="home"></i>
+                STI College Tagum
+            </li>
+            <li>
+                <i data-feather="book-open"></i>
+                Empowerment Technologies
+            </li>
+            <li>
+                <i data-feather="archive"></i>
+                XII - Cerulean
+            </li>
+            <li>
+                <i data-feather="clipboard"></i>
+                Under STEM
+            </li>
+            
+            <!-- end faves. any new faves must go above this line -->
+            
+        </div>
+        
+    </aside>
+    
+    <!----- END LEFT CONTENT ----->
+    
+    <!----- ================================
+ 
+    MAIN CONTENT
+ 
+    ================================= ----->
+    
+    <section>
+    
+        <article id="about">
+        
+             <!----- ABOUT TITLE ----->
+        
+            <div class="top-wrap">
+            
+                <!--
+                     this is your blog icon. to replace it with a different image, replace {PortraitURL-128} with the image url of your new image
+                -->
+            
+                <img src="{PortraitURL-128}" alt="icon image">
+                
+                <div class="align-flex">
+                    <div class="title-wrap">
+                        <div class="title">The Adventures of Group V's Project: The Story</div>
+                        @{Name}
+                    </div>
+                    <i data-feather="heart"></i>
+                </div>
+                
+            </div>
+            
+            <div class="padding" align="center">
+            
+                <!----- 
+                
+                PUT YOUR MAIN CONTENT ABOUT YOURSELF HERE. don't forget to separate paragraphs with <p></p>, use <b></b> for bold, <i></i> for italics, and <u></u> for underlines.
+                
+                ----->
+                <hr>
+                <br>
+            <h3>
+                 <i>About The Author</i>
+                 
+            </h3>
+                <p>
+                    Anthony A. Tamayo II is a 17-year-old STEM student at STI College Tagum. He enjoys reading, creating, and discovering new things. Curiosity and perfection are his muses, and he has fallen deeply in love with knowledge. Anthony appears to be a boring, lame, and cringy guy, but appearances can be deceiving. He's like a dormant volcano that erupts every now and then. He frequently finds himself at a loss for words or actions, but he always manages to pull it off. In some ways, he struggles to get words out of his mouth, but once he does, he is unstoppable. Taylor Swift, Viola Davis, and Lemony Snicket are Anthony's role models. He's still perplexed as to why some people enjoy writing, but he's willing to give it a shot.
+                </p>
+                   <br>
+                <hr size="0.5">
+                   <br>
+              <h3>
+                 <i>Purpose of the Website</i>
+            </h3>
+                <p>
+                   The author's goal for the website is to document the journey of his Group's iLS Project in his own unique way. Music has always been a source of comfort for the blogger since he was a child, and he hopes to incorporate it into this project as it progresses. Anthony wishes to convey each chapter of this journey in a musical manner, by including a song that corresponds to the entry that the viewers will construe. Now, just like Taylor Swift's song. Are you <i>"Ready for It"</i>?
+                </p>
+                   <br>
+                <hr size="0.5">
+                   <br>
+            <p style="font-size: 12px" align="center">
+                    <b>Author's Note: </b> 
+                    <i>On each chapter entry, a music player can be found in the lower part of the page. Each song that can be played corresponds to the entry and purpose of the chapter. For a more immersive experience, activate the music player by pressing the play button.
+                    </i>
+                </p>
+                   <br>
+                <hr>
+                <!-- all of your main about content needs to go above this line -->
+            
+            </div>
+            
+        </article>
+        
+        <!----- END ABOUT SECTION ----->
+        
+        <!----- ================================
+ 
+        NAVIGATION SECTION
+     
+        ================================= ----->
+        
+        <article class="links">
+            
+            <!-- navigation title -->
+        
+            <div class="title-wrap align-flex">
+                <div class="title">Navigation</div>
+                <i data-feather="list"></i>
+            </div>
+            
+            <!----- 
+            
+            ADDING LINKS:
+            all new link sections MUST be wrapped with <nav></nav>. see below for exambples. use <div class="title"></div> for titles, and <div class="subtitle"></div> for subtitles.
+            ----->
+            
+            <!----- LINKS SECTION ONE ----->
+            
+            <nav>
+                <div class="title">Journey of the iLS Project:</div>
+            <center> 
+             <a href="Preface.html">Preface: An Overview of the Venture</a>
+                <a href="Chapter-One.html">Chapter 1: The Origins and Formation</a>
+                <a href="Chapter-Two.html">Chapter 2: Negotiations of Schemes and Appointed Responsibilities</a>
+                <a href="Chapter-Three.html">Chapter 3: The Investigation's Development: A Tragedy</a>
+                <a href="Chapter-Four.html">Chapter 4: (고스트 페퍼) - The Invention Development Scheme </a>
+                <a href="Chapter-Five.html">Chapter 5: The End</a>
+				<a href="Chapter-Six.html">Chapter 6: A New Beginning: The Penultimate Abyss </a>
+                <a href="Chapter-Seven.html">Chapter 7: The Real Ending(끝)</a>
+                </center>
+            </nav>
+           <center> 
+         <nav> 
+          <i data-feather="skip-back"> </i>
+                <a href="https://untuhnae.tumblr.com">Currently at the Main Page</a>
+          <i data-feather="skip-forward"> </i>
+        </nav>
+                </center>
+            
+            <!-- all new link blocks must go above this line -->
+            
+        </article>
+        
+        <!----- END NAVIGATION SECTION ----->
+        
+    </section>
+    
+    <!----- END MAIN CONTENT ----->
+    
+    <!----- ================================
+ 
+    RIGHT CONTENT
+ 
+    ================================= ----->
+    
+    <aside id="right-content">
+    
+        <!----- SOCIAL MEDIA ----->
+    
+        <div id="social-links" class="sidebar-section">
+        
+            <!--
+                add new social media links here. you can use icons from feathericons OR the free version of https://fontawesome.com/icons?d=gallery&p=2. if you add font awesome icons, go to the site, click the icon you want, copy the icon HTML, and put it in the spots below. a social link looks like: 
+                
+                <li>
+                    <a href="/">
+                        <i data-feather="twitter"></i>
+                        @username
+                    </a>
+                </li>
+                
+                copy and paste that as many times as you need.
+            -->
+        
+            <div class="title">Social</div>
+    
+            <li>
+                <a href="https://twitter.com/untuhnae">
+                    <i data-feather="twitter"></i>
+                    @untuhnae
+                </a>
+            </li>
+            
+            <li>
+                <a href="https://instagram.com/untuhnae">
+                    <i data-feather="instagram"></i>
+                    @untuhnae
+                </a>
+            </li>
+            
+            <li>
+                <a href="https://facebook.com/untuhneh">
+                    <i data-feather="facebook"></i>
+                    @untuhneh
+                </a>
+            </li>
+            
+            <!-- end social; any new social links must go above this line -->
+        
+        </div>
+        
+              <!----- Favorites ----->
+        
+        <div id="sideblogs" class="sidebar-section">
+        
+            <div class="title">Favourites</div>
+            
+            <!-- put as many sideblogs as you want below. if you don't want the image, delete it in the html below. -->
+            
+            <li>
+                <img src="https://i.scdn.co/image/ab6761610000f178accf8c8763bf2fa909677c71">
+                <a href="https://instagram.com/dkz_dy">
+                    <div class="subtitle">DONGKIZ (동키즈)</div>
+                    @dkz_dy
+                </a>
+            </li>
+                        <li>
+                <img src="https://i.scdn.co/image/ab6761610000e5eb9e3acf1eaf3b8846e836f441">
+                <a href="https://instagram.com/taylorswift">
+                    <div class="subtitle">Taylor Swift</div>
+                    @taylorswift
+                </a>
+            </li>
+                                    <li>
+                <img src="https://i.scdn.co/image/ab6761610000e5ebb6501e0b3fcde145838f4724">
+                <a href="https://instagram.com/realstraykids">
+                    <div class="subtitle">Stray Kids (스트레이 키즈)</div>
+                    @realstraykids
+                </a>
+            </li>
+            
+            <!-- any new sideblogs must go above this line -->
+            
+        </div>
+        
+    <!----- END RIGHT CONTENT ----->
+    
+</main>
+
+<!----- END MAIN CONTAINER ----->
+
+<!----- ================================
+ 
+    FOOTER
+ 
+================================= ----->
+ 
+<footer>
+    <div id="footer-padding" class="align-flex">
+ 
+    <!----- SONG INFO ----->
+ 
+    <div class="player-wrap">
+        <div class="song">
+        
+            <!-- put your song art, title, and artist below: -->
+        
+            <div class="song-art"><img src="https://i.scdn.co/image/ab67616d0000b273da5d5aeeabacacc1263c0f4b" alt="album cover"></div>
+            <div class="song-info">
+                <div class="subtitle">Ready For It?</div>
+                Taylor Swift
+            </div>
+            
+          </div>
+        </div>
+        
+        <!-- end of song info -->
+        
+        <!----- AUDIO PLAYER AND HOME LINKS: you don't need to edit the links, just the player below ----->
+ 
+        <div id="pg">
+            <a href="/" title="return home"><svg xmlns="https://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-repeat"><polyline points="17 1 21 5 17 9"></polyline><path d="M3 11V9a4 4 0 0 1 4-4h14"></path><polyline points="7 23 3 19 7 15"></polyline><path d="M21 13v2a4 4 0 0 1-4 4H3"></path></svg></a>
+            
+            <!----- ================================
+             
+            ================================= ----->
+            
+<audio src="https://docs.google.com/uc?export=download&amp;id=1a5uy_TGqxsxLdHy-YXgoDqHRYFBuNp8Y" controls="controls"></audio>
+            
+            <!-- do not touch ANYTHING after here. STOP EDITING -->
+            
+            <div class="player-controls">
+                <div class="play-icon play-pause icon-play"></div>
+            </div>
+            
+          <a href="/random" title="random post"><svg xmlns="https://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shuffle"><polyline points="16 3 21 3 21 8"></polyline><line x1="4" y1="20" x2="21" y2="3"></line><polyline points="21 16 21 21 16 21"></polyline><line x1="15" y1="15" x2="21" y2="21"></line><line x1="4" y1="4" x2="9" y2="9"></line></svg></a>
+        </div>
+ 
+        <!-- search bar -->
+ 
+        <div id="search-wrap" class="align-flex">
+            <form action="/search" method="get" class="find" name="sform">
+                <svg xmlns="https://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                <input type="text" name="q" placeholder="Search" value="{SearchQuery}" value autocomplete="off"/>
+            </form>
+            <div id="hold"></div>
+        </div>
+ 
+      </div>
+</footer>
+
+<a title="For Empowerment Technologies | STEM 12" id="k">&.</a>
+
+<!----- END FOOTER ----->
+
+<!----- TOOLTIPS ----->
+ 
+<script src="https://unpkg.com/popper.js@1"></script>
+<script src="https://unpkg.com/tippy.js@5/dist/tippy-bundle.iife.js"></script>
+
+
+<!----- JQUERY ----->
+
+<script>
+feather.replace()
+    
+$(document).ready(function(){
+    var music = $('audio')[0];
+ 
+    $('.play-pause').click(function(){
+        if (music.paused) {
+          music.play();
+          $('.play-pause').removeClass('icon-play');
+          $('.play-pause').addClass('icon-pause');
+        } else {
+          music.pause();
+          $('.play-pause').removeClass('icon-pause');
+          $('.play-pause').addClass('icon-play');
+        }
+    });
+ 
+    music.onended = function(){
+        $('.play-pause').removeClass('icon-pause');
+        $('.play-pause').addClass('icon-play');
+    };
+});
+
+/// TOOLTIPS
+ 
+tippy('[title]', {
+    theme: 'custom',
+    arrow: false,
+    followCursor: true,
+    delay: 100,
+    placement: 'bottom-start',
+    zIndex: 9999999999,
+    maxWidth: 400,
+ 
+    content(reference) {
+        const title = reference.getAttribute('title');
+        reference.removeAttribute('title');
+        return title;
+    },
+});
+
+</script>
+
+</body>
+</html>
